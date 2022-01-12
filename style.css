@@ -1,0 +1,93 @@
+body{
+background-color: rgba(255, 105, 180, 0.207);
+}
+.container{
+    background-color: rgb(10, 55, 188);
+   
+}
+.logo img{
+    width: 60px;
+
+}
+.logo{
+    display: flex;
+}
+.head{
+    display: flex;
+    justify-content: space-around
+
+}
+.color{
+    color: aliceblue;
+    font-size: 23px;
+}
+.nav a{
+    text-decoration: none;
+   margin-right: 20px;
+   color: aliceblue;
+   font-size: 20px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   grid-gap:1em
+}
+.player img{
+    width: 60px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    
+}
+.play{
+    margin-left: 15px;
+}
+.background{
+    background-color: #FFFFFF;
+    margin:0 20%;
+    
+
+}
+.top{
+    font-size: 24px;
+    color: rgb(10, 55, 188) ;
+    margin-left: 40px;
+    font-weight: 900;
+}
+.top-players{
+    margin-left: 40px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+hr{
+    border: 1px solid gray;
+}
+
+/* second part start */
+.blog img{
+    width: 110px;
+    height: 100px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+}
+h2{
+    font-size: 20px;
+}
+
